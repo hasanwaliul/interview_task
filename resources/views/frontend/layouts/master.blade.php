@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="This is an ecommerce website based on laravel name Easy Shopping">
+    <meta name="description" content="This is an ecommerce website based on laravel named Easy Shopping">
     <meta name="author" content="Waliul Hasan">
     <meta name="keywords" content="online store, online business, ecom, ecommerce website, shopping cart, e business, ecommerce platforms">
     <meta name="robots" content="all">

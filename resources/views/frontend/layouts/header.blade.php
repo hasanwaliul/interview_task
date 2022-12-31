@@ -88,17 +88,9 @@
                                 </div>
                                 <div class="basket-item-count"><span class="count" id="cartProductQty"></span></div>
                                 <div class="total-price-basket">
-                                    @if (Session()->get('language') == 'bangla')
-                                    <span class="lbl">মোট বাঁজার -</span>
-                                    @else
                                     <span class="lbl">cart -</span>
-                                    @endif
                                     <span class="total-price">
-                                        @if (Session()->get('language') == 'bangla')
-                                        <span class="sign">৳</span><span class="value" id="cartProductPrice"></span>
-                                        @else
                                         <span class="sign">$</span><span class="value" id="cartProductPrice"></span>
-                                        @endif
                                     </span>
                                 </div>
 

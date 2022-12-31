@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-    @section('title', 'Easy Shopping')
+    @section('title', ' Laravel Task')
 @section('content')
 <div class="row">
 
@@ -94,10 +94,10 @@
                                              </span>
                                         @else
                                             <span class="price">
-                                                {{ $product->discount_price }}
+                                                {{ $product->actual_price }}
                                             </span>
                                             <span class="price-before-discount">
-                                                {{ $product->actual_price }}
+                                                {{ $product->actual_price + $product->discount_price }}
                                              </span>
                                         @endif
                                     </div><!-- /.product-price -->

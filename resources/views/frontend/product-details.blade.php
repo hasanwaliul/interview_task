@@ -170,7 +170,7 @@
 
                                     @else
                                         <div class="col-sm-7">
-                                            <button type="submit" onclick=" addToCart() " class="btn btn-primary">
+                                            <button type="submit" class="btn btn-primary">
                                                 <i class="fa fa-shopping-cart inner-right-vs"></i> ADD TO CART
                                             </button>
                                         </div>

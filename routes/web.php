@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\FrontendController;
-use App\Http\Controllers\Frontend\LanguageController;
 use App\Http\Controllers\Admin\ProductController;
 
 
@@ -10,10 +9,6 @@ use App\Http\Controllers\Admin\ProductController;
     Route::get('/',[FrontendController::class, 'index'])->name('frontend');
     Route::get('single-prduct/details/{id}/{slug}', [FrontendController::class, 'SingleProductDetails'])->name('single-product-details');
 
-
-    //  ################################## Multiple Language Part Start #################################
-    Route::get('language/Bangla', [LanguageController::class, 'Bangla'])->name('bangla-language');
-    Route::get('language/English', [LanguageController::class, 'English'])->name('english-language');
 
     /* ###########################################################################################
           ############################### Product Part Start  ###############################
