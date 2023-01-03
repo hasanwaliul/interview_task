@@ -52,7 +52,7 @@ active
                                             $amount = $product->actual_price - $product->discount_price;
                                             $discount = ($amount / $product->actual_price) * 100;
                                         @endphp
-                                            <span class="badge badge-pill badge-warning"> {{ round($discount) }}% </span>
+                                            <span class="badge badge-pill badge-warning"> {{ 100 - round($discount) }}% </span>
                                     @endif
                                 </td>
                                 <td>

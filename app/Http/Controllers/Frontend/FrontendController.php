@@ -26,9 +26,9 @@ class FrontendController extends Controller
         return view('frontend.product-details', compact('singleProduct', 'colorWiseProducts', 'sizeWiseProducts', 'relatedProducts'));
     }
 
-    public function getProductStockAndPriceWithSelectedColor(Request $request, $id){
-        $details = (new FrontendDataService())->getColorWiseProductPriceAndStock($request->id, $id);
-
+    public function getProductStockAndPriceWithSelectedColor(Request $request, $color_id){
+        $details = (new FrontendDataService())->getColorWiseProductPriceAndStock($request->id, $color_id);
+        
         return response()->json( $details );
     }
 

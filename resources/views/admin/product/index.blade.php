@@ -147,7 +147,7 @@ active
                                         <img src="" id="mainThmb">
                                     </div>
                                 </div><!-- col-4 -->
-                                <div class="col-lg-4">
+                                <div class="col-lg-6">
                                     <div class="form-group mg-t-20-force">
                                         <label class="form-control-label">Product Multiple Image: <span
                                                 class="tx-danger">*</span></label>
@@ -156,8 +156,8 @@ active
                                         @error('product_mtpImg')
                                         <span class="text-danger"> {{ $message }} </span>
                                         @enderror
-                                        <div class="row" id="preview_image1"></div>
                                     </div>
+                                    <div class="row" id="preview_image1"></div>
                                 </div><!-- col-4 -->
                                 <div class="col-lg-6">
                                     <div class="form-group mg-t-20-force">

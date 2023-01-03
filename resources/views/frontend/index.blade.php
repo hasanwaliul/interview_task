@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-    @section('title', ' Laravel Task')
+@section('title', ' Laravel Task')
 @section('content')
 <div class="row">
 
@@ -108,7 +108,7 @@
                                         <ul class="list-unstyled">
                                             <li class="add-cart-button btn-group">
                                                 <button class="btn btn-primary icon" type="button" data-toggle="modal" data-target="#cartModal"
-                                                 id="{{ $product->product_id }}" onclick="productView(this.id)">
+                                                 id="{{ $product->product_id }}">
                                                     <i class="fa fa-shopping-cart"></i>
                                                 </button>
                                                 <button class="btn btn-primary cart-btn"  data-toggle="tooltip"  type="button" title="Add Cart">
@@ -118,7 +118,7 @@
                                             </li>
                                             {{-- Wishlist button --}}
                                             <button class="btn btn-primary icon" type="button" class="add-to-cart" title="Wishlist"
-                                             id="{{ $product->product_id }}" onclick="addToWishlist(this.id)">
+                                             id="{{ $product->product_id }}">
                                                  <i class="icon fa fa-heart"></i>
                                             </button>
 

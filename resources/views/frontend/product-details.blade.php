@@ -88,7 +88,6 @@
 
                                     <div class="col-sm-6">
                                         <div class="price-box">
-
                                             @if ($singleProduct->discount_price == null)
                                             <span class="price" id="price"> {{ $singleProduct->actual_price}}
                                             </span>
@@ -309,7 +308,7 @@
             id:product
            },
            success: function (response) {
-            // console.log(response);
+            console.log(response);
             $('#color').html(response.stock_status);
             $('#price').html(response.price);
            }
